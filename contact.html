@@ -1,48 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Board Games | Contact</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Board Games | Content</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="preconnert" href="https://fonts.google.com/specimen/Mitr">
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=kanit">
+    </head>
+<header class="header_bg">
+  <nav class="navbar">
+    <span class="open-slide">
+            <a href="#" onclick="openSideMenu()">
+                <i class="bi bi-list"></i>
+            </a>
+    </span>
+    </nav>
+<div class="logo">
+    <a href="index.html"><img src="/img/Logo.png" alt=""></a>
+</div>
+<div id="side-menu" class="side-nav">
+  <a href="" onclick="closeSideMenu()"><i class="bi bi-door-closed"></i></a>
+  <div class="side-list">
+      <li></li><a href="index.html">Home</a>
+      <li><a href="About.html">About</a>
+      <li><a href="Board-Games1.html">Games</a>
+      <li><a href="contact.html">Contact</a>
+  </div>
+</div>
+</header>
 <body>
-    <header class="container">
-        <div>
-            <a href="index.html"><img src="/img/Logo.png" alt=""></a>
-        </div>
-    </header>
+    
     <div class="nav">
         <ul>
-            <li class="home"><a href="index.html"><i class="bi bi-house-fill"> </i>Home</a></li>
-            <li class="tutorials"><a href=""><i class="bi bi-box-seam-fill"> </i>Board Games</a>
+            <li><a href="index.html"><i class="bi bi-house-fill"></i> Home</a></li>
+            <li><a><i class="bi bi-box-seam-fill"></i> Card</a>
                 <ul>
-                    <li><a href="Board Games.html">บอร์ดเกมแนะนำ</a></li>
-                    <li><a href="#">Board Games ยอดนิยม</a></li>
-                    <li><a href="#">Tutotials #3</a></li>
+                    <li><a href="/Board-Games-Card.html">Board Games</a></li>
+                    <li><a href="/Top-Board-Games-Card.html">Top Board Games</a></li>
+                    <li><a href="/Guide-Games-Card.html">Guide Games</a></li>    
                 </ul>
             </li>
-            <li class="about"><a class="active" href="#">About</a></li>
-            <li class="news"><a href="">Newsletter</a>
+            <li><a class="active" href="About.html"><i class="bi bi-caret-right-fill"></i>About<i class="bi bi-caret-left-fill"></i></a></li>
+            <li><a><i class="bi bi-phone-fill"></i>Online</a>
                 <ul>
-                    <li><a href="#">News #1</a></li>
-                    <li><a href="#">News #2</a></li>
-                    <li><a href="#">News #3</a></li>
+                    <li><a href="/Board-Games-Online.html">Board Games</a></li>
+                    <li><a href="/Top-Board-Games-Online.html">Top Board Games</a></li>
+                    <li><a href="/Guide-Games-Online.html">Guide Games</a></li>
                 </ul>
             </li>
-            <li class="contact"><a href=""><i class="bi bi-person-lines-fill"> </i>Contact</a></li>
+            <li class="contact"><a href="contact.html"><i class="bi bi-person-lines-fill"> </i>Contact</a></li>
         </ul>
-    </div>
-    <div>
-        <div class="Contact">
-            <h1>Contact</h1>
-        </div>
+      </div>
 
+    <div class="main">
+        <div>
+            <p class="head">Developer</p>
+            <hr width="1000">
+            
+            <!--Profile_1-->
+            <figure class="profile">
+                <div class="profile-image"><img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/320606961_3167302913544684_4626398978382181093_n.jpg?stp=c90.0.200.200a_dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHtieBG9fAlrtIGCqyFhdYnaJBrmgV-671okGuaBX7rvQek6DCGXYTqAFqw3HBUlanCzTL-vkv34X5_UPYZDkVB&_nc_ohc=JAArcGY7tqcAX-PCCtj&tn=xEh3YyxTdN-dEsAq&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfBD93WIIeDaeT-dMNyKmoUMCB4JWNJOw5GmVyL-65UhtA&oe=63E3F818" alt="profile-sample1" />
+                </div>
+                <figcaption>
+                    <h3>นายวีรยุทธ เปลี่ยนแก้ว</h3>
+                        <h4>Founder</h4>
+                        <p>หน้าที่</p>
+                    <div id="light">
+                        <ul class="btn-list normal">
+                            <li><a href="https://www.facebook.com/profile.php?id=100088580691439" class="btn-gradient facebook"><i class="bi-facebook"></i></a>
+                        </ul>
+                    </div>
+                </figcaption>
+            </figure>
+            <!--Profile_2-->
+            <figure class="profile">
+                <div class="profile-image"><img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/322569921_837598154201597_6567174626203080967_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHgGKoMPLPFw_QQT8GM5gWO6AeFJ6tQwGroB4Unq1DAaq8jduA2Z4KdLf3jhZ56f0KXrZsSpYjoFAOopHHn5AL-&_nc_ohc=iz5oJhhAOxIAX-2nkEG&tn=xEh3YyxTdN-dEsAq&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfC9y3ssk3Xd6dyc5wdB3auFbRUnOgTdeKcf8UZm8-EEJw&oe=63E53779" alt="profile-sample4" />
+                </div>
+            <figcaption>
+                <h3>กรวิชญ์ ชูมาก</h3>
+                <h4>Web Designer</h4>
+                <p>หน้าที่</p>
+                <div id="light">
+                    <ul class="btn-list normal">
+                        <li><a href="https://www.facebook.com/profile.php?id=100078898185026" class="btn-gradient facebook"><i class="bi-facebook"></i></a>
+                    </ul>
+                </div>
+                </figcaption>
+              </figure>
+            <!--Profile_3-->
+            <figure class="profile">
+                <div class="profile-image"><img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/325338174_741902360319821_529511123302265375_n.jpg?stp=cp0_dst-jpg_p80x80&_nc_cat=109&ccb=1-7&_nc_sid=2fc63d&_nc_eui2=AeER360ynN3sTGyG-7x1RmTa6Sl1ZduoT6rpKXVl26hPqiFq0KCdxwO9ch8knG_N_Wuwngl6yGG9rMF512X-hl9H&_nc_ohc=_eowQOBbRvgAX8z4du8&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfBlVyMXsULrT-qwFpy75vRDry4DVMnm4-EYZ6Vq6asnzw&oe=63E558AD" alt="profile-sample9" />
+                </div>
+            <figcaption>
+                <h3>วัชรากร คำขมภู</h3>
+                <h4>Public Relations</h4>
+                <p>หน้าที่</p>
+                <div id="light">
+                    <ul class="btn-list normal">
+                        <li><a href="https://www.facebook.com/profile.php?id=100013774638363" class="btn-gradient facebook"><i class="bi-facebook"></i></a>
+                    </ul>
+                </div>
+            </figcaption>
+            </figure>
+            <!--Profile_4-->
+            <figure class="profile">
+                <div class="profile-image"><img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/324889942_698472048350173_653190893840837009_n.jpg?stp=dst-jpg_p100x100&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeFyFn5oweBemjp2ElVq2IAgnU6cTccOmKadTpxNxw6YpnWyquLldNYftzup7DHKKEYSUIs1MeWWnlX-YknBx0fQ&_nc_ohc=c10WdElV_i0AX_oyLZE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfDA7FGUYqR39hGCJbF5ntzSduEvQuwadfm5Pt-uBzF1Zw&oe=63E4DA08" alt="profile-sample4" />
+                </div>
+            <figcaption>
+                <h3>กันตพงษ์ ธงชัย</h3>
+                <h4>Web Designer</h4>
+                <p>หน้าที่</p>
+                <div id="light">
+                    <ul class="btn-list normal">
+                        <li><a href="https://www.facebook.com/profile.php?id=100074792603650" class="btn-gradient facebook"><i class="bi-facebook"></i></a>
+                    </ul>
+                </div>
+            </figcaption>
+            </figure>
+            <!--Profile_5-->
+            <figure class="profile">
+                <div class="profile-image"><img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/312653216_1247500389428292_3731453781896926929_n.jpg?stp=dst-jpg_p100x100&_nc_cat=110&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeFDShkx3SKdBhIQnpZUx6kTCwjytinxj1ULCPK2KfGPVf_QCgNrgw7SpTWlveE5Gx555bG3EPPRqVawI46Yi1-6&_nc_ohc=xVblKqfHwU4AX-ikLOt&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfAHO0diRhI6d7SBf6PMYQcU4-wgidS2ybmnJ7LMpoQdKg&oe=63E468BD" alt="profile-sample4" />
+                </div>
+            <figcaption>
+                <h3>ทองสวรรค์ อุ่นคำ</h3>
+                <h4>Web Designer</h4>
+                <p>หน้าที่</p>
+                <div id="light">
+                    <ul class="btn-list normal">
+                        <li><a href="https://www.facebook.com/profile.php?id=100025050288333" class="btn-gradient facebook"><i class="bi-facebook"></i></a>
+                    </ul>
+                </div>
+            </figcaption>
+            </figure>
+        
+
+
+            <footer>
+                <div> Happy Board Games &copy; 2023</div>
+            </footer>  
+        </div>      
     </div>
-    <footer>
-        <p>Happy Board Games &copy; 2023</p>
-    </footer>
+</body>
+<!--Java Script-->
+<script src="js/main.js"></script>
+</html>
+
+<style>
+    .main {
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 8px;
+        width: 1050px;
+        height: 680px;
+        margin-top: 10px;
+        margin-left: auto;
+	    margin-right: auto;
+    }
+
+    .main:after {
+        border-color: transparent transparent #333333 transparent;
+        border-style: solid;
+        border-width: 0 10px 10px 10px;
+        bottom: 100%;
+        content: '';
+        height: 0;
+        left: 32px;
+        position: absolute;
+        width: 0;
+    }
+
+    .tick {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px;
+        border-bottom: 1px solid black;
+        margin: 30px;
+        text-align: center;
+        
+    } 
+
+        /*Profile*/
+    .profile {
+        box-shadow: none !important;
+        color: #141414;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 1.4em;
+        margin: 10px;
+        max-width: 315px;
+        min-width: 230px;
+        position: relative;
+        text-align: left;
+        width: 100%;
+    }
+
+    .profile * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+  
+    }
+
+    .profile .profile-image img {
+        border-radius: 5px;
+        max-width: 100%;
+        height: 80px;
+        float: left;
+        box-shadow: 0 4px 21px -12px black;
+    }
+
+    .profile figcaption {
+        background-color: #333333;
+        border-radius: 5px;
+        color: #fff;
+        display: inline-block;
+        margin-top: 15px;
+        padding: 25px;
+        position: relative;
+        width: 100%;
+        box-shadow: 0 4px 21px -12px black;
+    }
+
+    .profile figcaption:after {
+        border-color: transparent transparent #333333 transparent;
+        border-style: solid;
+        border-width: 0 10px 10px 10px;
+        bottom: 100%;
+        content: '';
+        height: 0;
+        left: 32px;
+        position: absolute;
+        width: 0;
+    }
+
+    .profile h3,
+    .profile h4,
+    .profile p {
+        margin: 0 0 5px;
+    }
+
+    .profile h3 {
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+
+    .profile h4 {
+        color: #8c8c8c;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+
+    .profile p {
+        font-size: 0.9em;
+        letter-spacing: 1px;
+        opacity: 0.9;
+    }
+
+    .profile i {
+        color: #ffffff;
+        display: inline-block;
+        font-size: 18px;
+        opacity: 0.75;
+        padding: 10px 2px;
+    }
+
+    .profile i:hover {
+        opacity: 1;
+        -webkit-transition: all 0.35s ease;
+        transition: all 0.35s ease;
+    }
+    
+    .head {
+        color: #333333;
+        font-size: 25px;
+    }
+
+
+
+
+
+    
+</style>
+    <script src="/js/main.js"></script>
 </body>
 </html>

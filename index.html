@@ -5,40 +5,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Board Games | Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/button.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnert" href="https://fonts.google.com/specimen/Mitr">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-<header class="container">
-    <div>
-        <a href="index.html"><img src="/img/Logo.png" alt=""></a>
+<header class="header_bg">
+    <nav class="navbar">
+    <span class="open-slide">
+            <a href="#" onclick="openSideMenu()">
+                <i class="bi bi-list"></i>
+            </a>
+    </span>
+    </nav>
+<div class="logo">
+    <a href="index.html"><img src="/img/Logo.png"></a>
+</div>
+<div id="side-menu" class="side-nav">
+    <a href="" onclick="closeSideMenu()"><i class="bi bi-door-closed"></i></a>
+    <div class="side-list">
+        <li></li><a href="index.html">Home</a>
+        <li><a href="About.html">About</a>
+        <li><a href="Board-Games1.html">Games</a>
+        <li><a href="contact.html">Contact</a>
     </div>
+</div>
 </header>
-<div class="nav">
+<body>
+
+  <div class="nav">
     <ul>
-        <li class="home"><a href="index.html"><i class="bi bi-house-fill"> </i>Home</a></li>
-        <li class="tutorials"><a href=""><i class="bi bi-box-seam-fill"> </i>Games</a>
+        <li><a href="index.html"><i class="bi bi-house-fill"></i> Home</a></li>
+        <li><a><i class="bi bi-box-seam-fill"></i> Card</a>
             <ul>
-                <li><a href="Board Games.html">Board Games</a></li>
-                <li><a href="#">Top Board Games</a></li>
-                <li><a href="#">Guide Games</a></li>    
+                <li><a href="/Board-Games-Card.html">Board Games</a></li>
+                <li><a href="/Top-Board-Games-Card.html">Top Board Games</a></li>
+                <li><a href="/Guide-Games-Card.html">Guide Games</a></li>    
             </ul>
         </li>
-        <li class="about"><a class="active" href="#">About</a></li>
-        <li class="news"><a href="">Newsletter</a>
+        <li><a class="active" href="About.html"><i class="bi bi-caret-right-fill"></i>About<i class="bi bi-caret-left-fill"></i></a></li>
+        <li><a><i class="bi bi-phone-fill"></i>Online</a>
             <ul>
-                <li><a href="#">News #1</a></li>
-                <li><a href="#">News #2</a></li>
-                <li><a href="#">News #3</a></li>
+                <li><a href="/Board-Games-Online.html">Board Games</a></li>
+                <li><a href="/Top-Board-Games-Online.html">Top Board Games</a></li>
+                <li><a href="/Guide-Games-Online.html">Guide Games</a></li>
             </ul>
         </li>
         <li class="contact"><a href="contact.html"><i class="bi bi-person-lines-fill"> </i>Contact</a></li>
     </ul>
+  </div>
+
+  <div class="main">
+    <div class="content">
+      <h2>บอร์ดเกม (Board Game) น่าเล่น ชวนเพื่อนมาสนุกกัน</h2>
+      <hr width="940">
+        <div><img class="img-a" src="/img/board-game-collection.jpg" alt=""></div>
+      <p>บอร์ดเกม (Board Game) หรือ เกมกระดาน เป็นความบันเทิงหรือเกมรูปแบบหนึ่งที่สร้างความสนุกสนานให้กับผู้เล่น ที่สำคัญเกมของบอร์ดเกมมีอยู่หลากหลายให้ได้เลือกเล่นกัน ซึ่งการเล่นบอร์ดเกม ถือได้ว่าได้รับความนิยมมากขึ้นเรื่อย ๆ ของกลุ่มนักเรียน วัยรุ่น และผู้ใหญ่วัยทำงาน ทั้งนี้การเล่นบอร์ดเกมยังมีประโยชน์ที่สอดแทรกอยู่อีกมากมาย เช่น การพัฒนาสมอง การคิด และการตัดสินใจ รวมถึงการพัฒนาทักษะการสื่อสารอีกด้วย</p>
+    </div>
+    <div class="projcard-container">
+		
+      <div class="projcard projcard-blue">
+        <div class="projcard-innerbox">
+          <img class="projcard-img" src="/img/Board-game-collection2.jpg" />
+          <div class="projcard-textbox">
+            <div class="projcard-title">Card</div>
+            <div class="projcard-subtitle">บอร์ดเกมแบบการ์ด หรือกระดาน</div>
+            <div class="projcard-bar"></div>
+            <div class="projcard-description">เราได้รวมรวมบอร์ดเกมที่น่าสนใจไว้ให้คุณแล้ว หากคุณกำลังตามหายบอร์ดเกมไว้เล่นกับเพื่อนๆ พี่ๆ ของคุณ</div>
+            <a class="btn btn-border-3" href="/Board-Games-Card.html">Read Me</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projcard projcard-red">
+          <div class="projcard-innerbox">
+            <img class="projcard-img" src="/img/Board-Games-online.jpg">
+            <div class="projcard-textbox">
+              <div class="projcard-title">Online</div>
+              <div class="projcard-subtitle">บอร์ดเกมแบบออนไลน์ หรือบอร์ดเกมบน PC/Mobile</div>
+              <div class="projcard-bar"></div>
+              <div class="projcard-description">เราได้รวมรวมบอร์ดเกมที่น่าสนใจไว้ให้คุณแล้ว หากคุณกำลังตามหายบอร์ดเกมไว้เล่นกับเพื่อนๆ พี่ๆ ของคุณ</div>
+              <a class="btn btn-border-3" href="/Board-Games-Online.html">Read Me</a>
+            </div>
+          </div>
+        </div>
+  </div>
+  <footer>
+    <div> Happy Board Games &copy; 2023</div>
+  </footer>
 </div>
-<div>
-</div>
-<footer>
-    <p>Happy Board Games &copy; 2023</p>
-</footer>
+
+
+<style>
+    .main {
+        display: grid;  
+        background-color: #fff;
+        border-radius: 8px;
+        height: 1500px;
+        width: 1100px;
+        margin-top: 10px;
+        margin-left: auto;
+	      margin-right: auto;
+        margin-bottom: 50px;
+        box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+    }
+
+    .content {
+        display: block;
+        background-color: #fff;
+        border-radius: 8px;
+        height: 650px;
+        width: 1000px;
+        margin: 50px;
+        margin-left: auto;
+	      margin-right: auto;
+        box-shadow: 0 4px 30px -12px rgba(0, 0, 0, 0.66);
+	      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .content h2 {
+      padding-left: 30px;
+    }
+
+    .content p {
+      color: #757575;
+      margin:25px;
+      font-size: 18px;
+    }
+
+    .img-a {
+      border-radius: 8px;
+      margin-left: 200px;
+    }
+
+
+</style>
 </body>
+<!--Java Script-->
+<script  src="/js/main.js"></script>
 </html>
